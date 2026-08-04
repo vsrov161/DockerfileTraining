@@ -16,7 +16,7 @@ COPY --from=builder /root/.local /home/appuser/.local
 
 COPY . .
 
-ENV PATH=/home/appuser.local/bin:$PATH
+ENV PATH=/home/appuser/.local/bin:$PATH
 
 USER appuser
 
