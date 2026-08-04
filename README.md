@@ -5,6 +5,7 @@
 - sudo -i
 - mkdir -p /opt/app && cd /opt/app
 - git clone https://github.com/vsrov161/DockerfileTraining.git
+- cd DockerfileTraining
 - docker build -t flask_app_image . --no-cache
 - docker run -d -p 80:5000 --name flask_app_cont flask_app_image
 
