@@ -8,6 +8,8 @@ RUN pip install --user --no-cache-dir -r requirements.txt
 
 FROM python:3.12-slim
 
+RUN groupadd -r appuser && useradd -r -g appuser appuser
+
 WORKDIR /app
 
 COPY --from=builder /root/.local /home/appuser/.local
