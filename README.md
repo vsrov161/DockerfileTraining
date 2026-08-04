@@ -7,7 +7,7 @@
 - git clone https://github.com/vsrov161/DockerfileTraining.git
 - cd DockerfileTraining
 - ls -la (or ll) to check if all files downloaded
-- docker build -t flask_app_image . --no-cache
+- docker build -t flask_app_image . (or also with flag --no-cache)
 - docker run -d -p 80:5000 --name flask_app_cont flask_app_image
 
 ## Actions needed for VB
