@@ -12,6 +12,7 @@
 
 ## Actions needed for VB
 - Machine -> Network -> Port Forwarding -> **+** ADD NEW -> Name: Flask; Protocol: TCP; Host port: 80; Guest port: 80 -> OK
+- <img width="641" height="391" alt="image" src="https://github.com/user-attachments/assets/11efd818-f680-47de-bbd0-d6d2ab90e315" />
 - now all set, go check http://localhost and you'll see output from container
 
 ## Some screenshots from lab
