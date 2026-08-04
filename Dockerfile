@@ -23,4 +23,4 @@ HEALTHCHECK --interval=30s --timeout=3s --retries=3 \
     CMD curl -f http://localhost:8000/health || exit 1
 
 ENTRYPOINT ["python"]
-CMD["main.py"]
+CMD ["main.py"]
